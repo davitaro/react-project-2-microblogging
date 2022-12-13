@@ -1,0 +1,35 @@
+.search-bar {
+  padding: 0;
+  color: white;
+}
+
+.search-input {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 0;
+  border: none;
+  background-color: #15202B;
+}
+
+.search-input:focus {
+  outline: none;
+  border: none;
+  stroke: none;
+}
+
+.search-bar label {
+  font-size: 10px;
+}
+
+.radio-input {
+  width: fit-content;
+  margin: 0;
+}
+
+.search-box {
+  display: flex;
+  background-color: #15202B;
+  padding: 5px;
+  border: solid white 2px;
+  border-radius: 6px;
+}

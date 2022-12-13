@@ -1,0 +1,11 @@
+.profile-image {
+  border-radius: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.full-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}

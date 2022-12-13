@@ -1,0 +1,48 @@
+.navbar {
+  width: 1076px;
+  background-color: #343a40;
+  height: 58px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 14px;
+  padding-left: 20px;
+}
+
+a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  opacity: 1;
+}
+
+.navbar p {
+  color: white;
+}
+
+.upload-error {
+  margin-top: 10px;
+  font-size: 14px;
+  align-self: center;
+}
+
+.welcome {
+  color: white;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.small-date {
+  font-size: xx-small;
+  line-height: 1.5;
+}

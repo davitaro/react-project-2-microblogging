@@ -1,0 +1,38 @@
+.account-wrapper {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.account-wrapper h1,
+h2 {
+  color: white;
+}
+
+.account-wrapper .google-button {
+  background-color: white;
+  padding: 10px 5px;
+  width: fit-content;
+}
+
+.account-wrapper .google-button:hover {
+  opacity: 0.8;
+}
+
+.account-wrapper .google-button:active {
+  opacity: 0.8;
+  box-shadow: inset;
+}
+.account-forms {
+  display: flex;
+  gap: 20px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.account-forms > .line {
+  background-color: white;
+  width: 10px;
+}

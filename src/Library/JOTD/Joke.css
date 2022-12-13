@@ -1,0 +1,16 @@
+.joke-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+  width: 600px;
+  margin: 10px auto 0 auto;
+
+}
+
+.joke-header {
+    background-color: teal;
+}
+
+.joke-body {
+    padding: 10px;
+}

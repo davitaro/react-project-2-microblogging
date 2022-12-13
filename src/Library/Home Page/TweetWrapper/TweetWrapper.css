@@ -1,0 +1,30 @@
+.tweet-wrapper {
+  margin: 0 auto;
+  width: 800px;
+  max-height: 90vh;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 30px 100px 0 100px;
+}
+
+.tweet-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.background {
+  color: white;
+}
+
+.my-tweets {
+  background-image: linear-gradient(
+    to right,
+    rgba(132, 193, 212, 0.705),
+    rgb(214, 114, 156)
+  );
+}
+
+/* @media only screen and (max-width: 600px) {
+  .tweet-wrapper{  
+    
+  }
+} */

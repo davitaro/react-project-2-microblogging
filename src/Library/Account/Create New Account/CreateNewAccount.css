@@ -1,0 +1,21 @@
+.create-new-account-wrapper {
+  padding: 20px;
+  background-color: lightgrey;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.create-new-account-wrapper input {
+  width: 90%;
+}
+
+input::placeholder {
+  color: lightgrey;
+}
+
+.create-new-account-wrapper a {
+  color: inherit;
+}

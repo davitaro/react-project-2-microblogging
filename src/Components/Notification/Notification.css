@@ -1,0 +1,18 @@
+.notification {
+  background-color: lightgreen;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  color: darkgreen;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.server-error {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.tweet {
+  border: none;
+  height: 84px;
+  color: #ffffff;
+  margin: 0;
+  background-color: #343a40;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.tweet:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.tweet-info {
+  color: #6c757d;
+  margin-bottom: 16px;
+}

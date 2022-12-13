@@ -1,0 +1,18 @@
+.line {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: right;
+  align-items: center;
+}
+
+.line[justify="between"] {
+  justify-content: space-between;
+}
+
+.line[center="center"] {
+  justify-content: center;
+}
+
+.line[gap="gap"] {
+  gap: 15px;
+}
